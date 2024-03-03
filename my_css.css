@@ -1,0 +1,37 @@
+
+body { font-family: Georgia; color: #444; }
+#body-div { padding: 10px 80px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 8px 0 2px 0; }
+
+.split-div { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+h2 { text-transform: uppercase; letter-spacing: 2px; }
+
+footer { margin-bottom: 2em; padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;}
+
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+h2 { font-size: 152%; margin-bottom: 6px;}
+h3 { font-size: 122%; }
+h4 { font-size: 114%; }
+h1, h2, h3, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #990003 }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 7px; }
+.last { border-bottom: 0 }
+
+@media only screen and (min-width: 700px) { /* Only use on 700px width or larger screen, otherwise some text start to overlap each other.*/
+    .div-experience { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+    .div-experience h4 { position: absolute; top: 0.35em; right: 0 }
+    .div-experience p { margin: 0.75em 0 3em 0; }
+}
+
+.last { border: none; }
+ul { margin: 0; }
+li { margin: 3px 0; padding: 3px 0; }
+li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+
+/* --// override to force 1/8th width grids -- */
+.split-div {width:80.2%;}
